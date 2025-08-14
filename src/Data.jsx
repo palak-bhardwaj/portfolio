@@ -169,6 +169,8 @@ import projectImg1 from './assets/project-1.png';
 import projectImg2 from './assets/project-2.png';
 import projectImg3 from './assets/project-3.png';
 import projectImg4 from './assets/project-4.jpeg';
+import mongo from './assets/mongo.png'
+import node from './assets/node.png'
 export const portfolio = [
   {
     id: 1,
@@ -176,7 +178,7 @@ export const portfolio = [
     title: 'PrepMate-AI',
     description:
       'AI powered personalized interview preperation website',
-    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg5],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg5,node,mongo],
     link: 'https://github.com/palak-bhardwaj/PrepMate-AI',
   },
 
@@ -186,7 +188,7 @@ export const portfolio = [
     title: 'Echonest',
     description:
       'Store your memories safely here',
-    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg5],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg5,node,mongo],
     link: 'https://github.com/palak-bhardwaj/echonest',
   },
 
@@ -206,7 +208,7 @@ export const portfolio = [
     title: 'Voice Assistant',
     description:
       'Voice Assistant for PCs',
-    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg5],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg7],
     link: 'https://github.com/palak-bhardwaj/VoiceAssistant',
   },
 ];
